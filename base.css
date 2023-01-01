@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    background-color: #000;
+    position: absolute;
+    width: max(min(15vw, 100px),60px);
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.logo{
+    width: max(min(7vw, 80px),40px); 
+    height:max(min(7vw, 80px),40px); 
+}
+
+
+.login-icon{
+    width: 100%;
+    height: 100%;
+    
+    border: 2px solid white;
+    border-radius: 50%;
+
+    
+    width: max(min(100%, 50px),30px); /**/
+    height:max(min(100%, 50px),30px); /**/
+}
+
+.login-icon-wrapper{
+    padding: 2px;
+    
+    border: 2px solid white;
+    border-radius: 50%;
+    align-items: center;
+    
+
+}
+
+
+.item{
+    color: white;
+    background-color:aqua ;
+    border-radius:10px;
+    padding: 10px 10px;
+
+    width:min(100%, 50px);/**/
+    height:min(100%, 50px);/**/
+
+    margin: auto auto;
+}
+
+/* if i have a section i just add the class */
+.section{
+    background-color: rgba(255,255,255,0.1);/**/
+    margin: auto auto;
+    width: 100%;
+}
+
+/* if i need the child items in it to be sentered */
+.center_vertical{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.center_horizontal{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+/*  */
+
+.b{
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.focused{
+    border-radius: 0%;
+    width: 600px;
+    
+
+    
+}
